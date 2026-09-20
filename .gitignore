@@ -1,0 +1,21 @@
+# чужие ассеты (Anthropic / OpenAI) и всё, что из них нарезано — собирается tools/fetch_assets.sh
+assets_src/
+sprites/
+laptop/
+fonts/
+# результаты и кэши
+out/
+reference/
+__pycache__/
+*.pyc
+.cache/
+audio/stems/
+audio/cues/
+audio/master*.wav
+audio/samples/*/
+audio/_dl*/
+qa/*.png
+qa/*.mp4
+_scratch/*.png
+.DS_Store
+scenes/_c_cache/
